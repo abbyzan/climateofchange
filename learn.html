@@ -1,0 +1,88 @@
+  <!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./styles.css">
+     <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+         <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+  </head>
+
+                            
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="./style.css">
+    
+    <!-- import the webpage's javascript file -->
+    
+      <!-- Load Leaflet CSS -->
+    <link href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" rel="stylesheet">
+    
+    <!-- Load our styles -->
+    <link href="./styles.css" rel="stylesheet">
+      
+  
+  <ul class="learnmenu">
+        <li><a href="index.html">Home </a></li>
+        <li><a href="learn.html"> Learn </a></li>
+        <li><a href="connect.html"> Connect </a></li>
+        <li><a href="envision.html"> Envision </a></li>
+      </ul>
+
+  
+    <div class="sidebar">
+      
+      <br>
+          THE CLIMATE OF CHANGE RESOURCE MAP
+      <br>
+      <hr/>
+      
+    FILTER RESOURCES BY TYPE:
+      <br>
+
+    <select class="layer-picker">
+        <option value="all">Show all types</option>
+        <option value="Food">Food</option>
+        <option value="Energy">Energy</option>
+        <option value="Work">Work</option>
+        <option value="Shelter">Shelter</option>
+        <option value="Health">Health</option>
+      </select>
+      
+      <hr/>
+      
+      SELECT BASE LAYERS (click to hide/reveal):
+      
+      <br>
+        <button class= "toggle-poverty">
+         POVERTY RATE BY CENSUS TRACT
+        </button>
+      <br>
+      
+        <button class= "toggle-employment">
+         EMPLOYMENT RATE BY CENSUS TRACT
+        </button>
+        
+        <br>
+       <button class= "toggle-home">
+         HOMEOWNERSHIP RATE BY CENSUS TRACT
+        </button>
+      
+      <hr/>
+      
+      <button class="addresourcebutton" style="vertical-align:middle"><span><a href="addresource.html">ADD A RESOURCE TO THE MAP</a></span></button>
+      
+    </div>
+  
+     <div id="map">
+  
+
+    
+  
+    
+    <!-- Load Leaflet and Carto libraries -->
+    <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://libs.cartocdn.com/carto.js/v4.1.11/carto.min.js"></script>
+    
+    <!-- Load our JavaScript -->
+    <script src="./script.js"></script>
+    <script src="https://button.glitch.me/button.js"></script>
+    
+</html>

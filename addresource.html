@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hello!</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Load Leaflet CSS -->
+    <link href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" rel="stylesheet">
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- Load Leaflet and Carto libraries -->
+    <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://libs.cartocdn.com/carto.js/v4.1.11/carto.min.js"></script>
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/addresource.js" defer></script>
+<link href="https://fonts.googleapis.com/css?family=Pavanam|Staatliches" rel="stylesheet">
+  </head>  
+  <body>
+    <div>
+       <h1 class="Resourcetitle"> Add a Resource to the Climate of Change Map</h1>
+    </div>
+    
+    <script type="text/javascript">var submitted=false;</script>
+   <h2>
+      
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='https://add-resource-to-map.glitch.me/thanks.html';}"></iframe>
+    
+    <script>console.log(submitted);</script>
+    
+    <form action= "https://docs.google.com/forms/d/e/1FAIpQLSeNsCeuCEXHwM0Y2xZdWltmYzej71joYFkJqzlXFsQZkzK-lQ/formResponse" method="POST" target="hidden_iframe" onsubmit="submitted=true;">
+      <div>
+        <label for="name">Resource Name</label>
+        <input id="name" type="text" name="entry.949669686" />
+
+                                                           </div>
+                                                           <div>
+        <label for="Description">A short description of the resource</label>
+        <input id="name" type="text" name="entry.949669686"/>
+                                                           </div>
+                                                          
+        <div>
+            <label for="name">Optional: link to image (link must end in .jpg, .jpeg, or .png)</label>
+        <input id="name" type="text" name=" entry.2101232904"/>
+                                                             </div>
+        <div><label for="Category">Category (select the best fit)</label>
+        <select name="entry.1996377277">
+          <option>FOOD</option>
+          <option>HEALTH</option>
+          <option>ENERGY</option>
+          <option>SHELTER</option>
+          <option>WORK</option>
+          <option>OTHER</option>                                             
+      </select>
+      </div>
+      <input class="longitude-field" id="longitude" type="hidden" name="entry.2104817429" />
+      <input class="latitude-field" id="latitude" type="hidden" name="entry.1726541917" />
+      
+      <div>
+        <p>
+          Where is it? Click the map to add a point. Then, click the submit button below.
+        </p>
+      </div>
+      <div id="formmap"></div>
+      
+      <div id= "submit"><input type="submit" value="Submit" /> </div>
+    </form>
+
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js"></script>
+    </h2>
+  </body>
+</html>

@@ -1,0 +1,292 @@
+/* CSS files add styling rules to your content */
+
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+  position: relative;
+  width: 900px;
+  z-index: 0;
+  float: left;
+}
+
+h2{
+  margin: 15px;
+  top: 200px;
+  left: 0px;
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  z-index: -1;
+  padding-bottom: 600px;
+  font-family: 'Dosis', sans-serif;
+}
+
+.menu{
+  border-style: solid;
+  width: 450px;
+  height: 60px;
+  float: right;
+  list-style-type: none;
+  z-index: 1000;
+  position: relative;
+  
+}
+
+.menu li{
+  display: inline;
+  font-size: 16px;
+  font-family: 'Dosis', sans-serif;
+}
+
+.learnmenu{
+    background: white;
+    position: relative;
+    z-index: 30000;
+    float: right;
+    display: inline-block;
+    font-family: 'Dosis', sans-serif;
+    border-style: solid;
+    top: 0px;
+}
+
+.learnmenu li{
+    background: transparent;
+    position: relative;
+    z-index: 30000;
+    float: right;
+    display: inline-block;
+    font-family: 'Dosis', sans-serif;
+}
+
+a:link, a:visited {
+  background-color: transparent;
+  color: black;
+  padding: 5px;
+  margin: 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover {
+  background-color: yellow;
+  border-radius: 10px 10px 10px 10px;
+}
+
+#map {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.map-wrapper {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.buttons {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  z-index: 2500;
+  font-family:'Pavanam', sans-serif;
+}
+
+.addresourcebutton{
+  background-color: yellow;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+  padding: 20px;
+  width: 300px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  font-family:'Dosis', sans-serif;
+  align: left;
+  box-shadow: 5px 10px #888888;
+}
+
+
+.addresourcebutton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.addresourcebutton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.addresourcebutton:hover span {
+  padding-right: 25px;
+}
+
+.addresourcebutton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: 'Staatliches', cursive;
+  margin: 2em;
+}
+
+h1 {
+  color: #16790F;
+}
+
+*/*#map{
+  height: 100%;
+  width: 100%;
+  margin-top: 500px;
+  margin-left: inherit;
+  position: absolute;
+  z-index: -1;
+  padding: 100px;
+}
+*/
+
+.map-wrapper {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+#map {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 50px;
+  bottom: 50px;
+  margin: 0 auto;
+}
+
+#formmap {
+  width: 700px;
+  height: 600px;
+}
+
+form {
+  font-family:'Pavanam', sans-serif;
+}
+
+#submit{
+  font-size: 20px;
+}
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.layer-picker {
+  font-family:'Dosis', sans-serif;
+  font-size: 16px;
+  z-index: 20000;
+  color: green;
+}
+
+.sidebar {
+    height: 100%;
+    width: 25%;
+    position: absolute;
+    opacity: 0.9;
+    left: 1px;
+    margin-top: 0px;
+    display: inline-block;
+    background-color: white;
+    padding: 20px;
+    font-size: 1.6em;
+    z-index: 3000;
+    font-family:'Dosis', sans-serif;
+    text-align: left;
+}
+
+.toggle-poverty{
+  position: relative;
+  font-family: 'Dosis', sans-serif;
+  font-size: 16px;
+  color: #54278f;
+}
+
+button:focus{
+  background-color:gray;
+  border-style: solid;
+}
+
+.toggle-employment{
+  position: relative;
+  font-family: 'Dosis', sans-serif;
+  font-size: 16px;
+  color: #f7945d;
+}
+
+.toggle-home{
+  position: relative;
+  font-family: 'Dosis', sans-serif;
+  font-size: 16px;
+  color: #045275;
+}
+
+
+
+.resourcetitle{
+  word-break: keep-all;
+  width: 5000px;
+}
+
+.popuptitle{
+  font-size: 22px;
+  font-family: 'Dosis', sans-serif;
+}
+
+.grid-container {
+  display: grid;
+  width: 100%;
+}
+
+.grid-item{
+  font-size: 14px;
+  font-family: 'Dosis', sans-serif;
+}
+
+.grid-item1{
+  font-size: 14px;
+  font-family: 'Dosis', sans-serif;
+  grid-column-start: 2;
+  grid-column-end: five;
+  grid-row-start: row1-start
+}
+
+.grid-item2{
+  font-size: 14px;
+  font-family: 'Dosis', sans-serif;
+  grid-column-start: auto;
+  grid-column-end: auto;
+}
+
+
+hr {
+    display: block;
+    height: 2px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
